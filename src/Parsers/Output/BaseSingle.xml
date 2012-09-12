@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Machines>
+  <Machine>
+    <nameM>guitar</nameM>
+    <Presets>
+      <Preset>
+        <nameP>Rock</nameP>
+        <XPosition>900</XPosition>
+        <YPosition>500</YPosition>
+        <TwPosition>100</TwPosition>
+      </Preset>
+      <Preset>
+        <nameP>Urban</nameP>
+        <XPosition>900</XPosition>
+        <YPosition>600</YPosition>
+        <TwPosition>100</TwPosition>
+      </Preset>
+    </Presets>
+  </Machine>
+  <Machine>
+    <nameM>electric</nameM>
+    <Presets>
+      <Preset>
+        <nameP>Urban</nameP>
+        <XPosition>900</XPosition>
+        <YPosition>600</YPosition>
+        <TwPosition>100</TwPosition>
+      </Preset>
+    </Presets>
+  </Machine>
+</Machines>
