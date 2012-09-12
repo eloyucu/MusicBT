@@ -19,8 +19,8 @@ public class Etiquetas extends JPanel
 	
 	private final String titulo = "CHOOSEN";
 	private final String tipoLetra= "Algerian";
-	private final int diseñoLetra = 10;
-	private final int tamañoLetra = 20;
+	private final int disenoLetra = 10;
+	private final int tamanoLetra = 20;
 	private final String icono ="C:\\Users\\chozas\\workspace\\MusicBT\\iconoValor.jpg";
 	
 	public Etiquetas()
@@ -36,7 +36,7 @@ public class Etiquetas extends JPanel
 	public void construirEtiquetas()
 	{
 		JLabel etiquetaValores = new JLabel(titulo);
-		etiquetaValores.setFont(new Font(tipoLetra,diseñoLetra,tamañoLetra));
+		etiquetaValores.setFont(new Font(tipoLetra,disenoLetra,tamanoLetra));
 		etiquetaValores.setIcon(new ImageIcon(icono));
 		etiquetaValores.setHorizontalAlignment(JLabel.CENTER);
 		add(etiquetaValores,BorderLayout.NORTH);

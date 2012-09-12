@@ -18,8 +18,8 @@ public class BotoneraManual extends JPanel
 {
 	private final String titulo = "MANUAL";
 	private final String tipoLetra= "Algerian";
-	private final int diseñoLetra = 10;
-	private final int tamañoLetra = 20;
+	private final int disenoLetra = 10;
+	private final int tamanoLetra = 20;
 	private final String icono ="C:\\Users\\chozas\\workspace\\MusicBT\\iconoManual.jpg";
 	private final String[] types={"UP","DW","FW","BK","TL","TR"};
 	
@@ -44,7 +44,7 @@ public class BotoneraManual extends JPanel
 		JLabel etiquetaManual = new JLabel(titulo);
 		etiquetaManual.setBackground(java.awt.Color.white);
 		
-		etiquetaManual.setFont(new Font(tipoLetra,diseñoLetra,tamañoLetra));
+		etiquetaManual.setFont(new Font(tipoLetra,disenoLetra,tamanoLetra));
 		etiquetaManual.setIcon(new ImageIcon(icono));
 		etiquetaManual.setHorizontalAlignment(JLabel.CENTER);
 		add(etiquetaManual,BorderLayout.NORTH);
@@ -75,7 +75,7 @@ public class BotoneraManual extends JPanel
 					if(type.equals(types[0])){fachada.enviar("ARRIBA");}
 					if(type.equals(types[1])){fachada.enviar("ABAJO");}
 					if(type.equals(types[2])){fachada.enviar("ALANTE");}
-					if(type.equals(types[3])){fachada.enviar("ATRÁS");}
+					if(type.equals(types[3])){fachada.enviar("ATRï¿½S");}
 					if(type.equals(types[4])){fachada.enviar("IZQUIERDA");}
 					if(type.equals(types[5])){fachada.enviar("DERECHA");}
 					

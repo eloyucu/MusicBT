@@ -20,8 +20,8 @@ public class BotoneraAutomatica extends JPanel
 {
 	private final String titulo = "AUTOMATIC";
 	private final String tipoLetra= "Algerian";
-	private final int diseñoLetra = 10;
-	private final int tamañoLetra = 20;
+	private final int disenoLetra = 10;
+	private final int tamanoLetra = 20;
 	private final String icono ="C:\\Users\\chozas\\workspace\\MusicBT\\iconoAuto.jpg";
 	private final String[] types ={"FB","UD","TW"};
 	
@@ -50,7 +50,7 @@ public class BotoneraAutomatica extends JPanel
 	{
 		
 		JLabel etiquetaAuto = new JLabel(titulo);
-		etiquetaAuto.setFont(new Font(tipoLetra,diseñoLetra,tamañoLetra));
+		etiquetaAuto.setFont(new Font(tipoLetra,disenoLetra,tamanoLetra));
 		etiquetaAuto.setIcon(new ImageIcon(icono));
 		etiquetaAuto.setHorizontalAlignment(JLabel.CENTER);
 		add(etiquetaAuto,BorderLayout.NORTH);
